@@ -12,6 +12,7 @@ module.exports = {
 				'NODE_ENV': JSON.stringify('production')
 			}
 		}),
+		new webpack.optimize.CommonsChunkPlugin('common.js'),
 		new webpack.optimize.UglifyJsPlugin({
 			minimize: true,	
 			compress: { warnings: false }

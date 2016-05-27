@@ -2,6 +2,16 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './containers/main';
+import { Router, Route } from 'react-router';
 
-ReactDOM.render(<Main />, document.getElementById('app'));
+import Main from './containers/main';
+import About from './containers/about';
+import Error from './containers/error';
+
+ReactDOM.render((
+	<Router>
+		<Route path="/" component={Main} />
+		<Route path="about" component={About} />
+		<Route path="*" component={Error} />
+	</Router>
+), document.getElementById('app'));
