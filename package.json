@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "build": "webpack",
-    "dev": "node src/server/server"
+    "dev": "npm run build; node src/server/server;"
   },
   "author": "Alexander Seeto",
   "license": "MIT",
@@ -16,6 +16,7 @@
     "css-loader": "^0.23.1",
     "ejs": "^2.4.2",
     "express": "^4.13.4",
+    "history": "^2.1.2",
     "lodash": "^4.12.0",
     "node-sass": "^3.7.0",
     "react": "^15.1.0",

@@ -2,16 +2,25 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route } from 'react-router';
+import { createHashHistory } from 'history';
+import { Router, Route, useRouterHistory } from 'react-router';
 
-import Main from './containers/main';
-import About from './containers/about';
-import Error from './containers/error';
+import Home from './components/home';
+import About from './components/about';
+import Team from './components/team';
+import Projects from './components/projects';
+import Contact from './components/contact';
+import Error from './components/error';
+
+const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 
 ReactDOM.render((
-	<Router>
-		<Route path="/" component={Main} />
+	<Router history={appHistory}>
+		<Route path="/" component={Home} />
 		<Route path="about" component={About} />
+		<Route path="team" component={Team} />
+		<Route path="projects" component={Projects} />
+		<Route path="contact" component={Contact} />
 		<Route path="*" component={Error} />
 	</Router>
 ), document.getElementById('app'));

@@ -3,19 +3,21 @@
 import React from 'react';
 
 import Header from '../components/header';
-import Content from '../components/content';
 import Footer from '../components/footer';
+import Content from './content';
 
-require('./style/main.scss');
+require('./style/page.scss');
 
-const Main = ((props) => {
+const Page = ((props) => {
 	return (
-		<div>
+		<div className="wrapper">
 			<Header />
-			<Content />
+			<Content>
+				{props.children}
+			</Content>
 			<Footer />
 		</div>
 	)
 });
 
-export default Main;
+export default Page;
