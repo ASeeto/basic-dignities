@@ -7,6 +7,7 @@ import Page from '../containers/page';
 const Projects = ((props) => {
 	return (
 		<Page>
+			<img src="img/kisima.jpg" />
 			<p>For our first project, we have decided to partner with the Ugandan non-profit agency, PresAID Uganda, and the local community of Kisima Island, on Lake Victoria, to bring safe drinking water to their residents. Here are some critical facts to know:</p>
 			<ul>
 				<li>Approximate population is 1,950 of which 80% are youth</li>

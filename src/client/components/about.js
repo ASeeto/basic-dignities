@@ -9,7 +9,7 @@ require('./style/about.scss');
 const About = ((props) => {
 	return (
 		<Page>
-			<h1>Thank you for visiting. Our site is currently under construction.</h1>
+			<h1>Welcome to Basic Dignities</h1>
 			<p>
 				Basic Dignities Corp is founded on the core concept that every person deserves a solid basis upon which to build their lives. This includes access to clean water, appropriate clothing & shelter, a basic education, food, and health care. Without getting involved in politics and variable social norms, we believe that these are the very least assurances that should be provided to every individual.
 			</p>
