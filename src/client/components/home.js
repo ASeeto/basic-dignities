@@ -15,14 +15,14 @@ const Home = ((props) => {
 	return (
 		<div>
 			<Header />
-			<div style={{width: '100%'}}>
+			<div style={{width: '100wh'}}>
 				<Slider {...settings}>
-					<div className="slide" style={{backgroundImage: "url('img/slider1.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
-					<div className="slide" style={{backgroundImage: "url('img/slider2.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
-					<div className="slide" style={{backgroundImage: "url('img/slider3.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
-					<div className="slide" style={{backgroundImage: "url('img/slider4.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
-					<div className="slide" style={{backgroundImage: "url('img/slider5.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
-					<div className="slide" style={{backgroundImage: "url('img/slider6.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider1.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider2.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider3.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider4.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider5.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
+					<div className="slide" style={{backgroundImage: "url('/img/slider6.jpg')", backgroundSize: "cover", backgroundPosition: "center"}}></div>
 				</Slider>
 			</div>
 			<Footer />
