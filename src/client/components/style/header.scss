@@ -15,6 +15,11 @@ nav.navbar {
 	#logo {
 		float: left;
 		padding: 5px;
+		span {
+			font-size: 16pt;
+			padding: 15px;
+			display: block;
+		}
 	}
 	#donate {
 		float: right;

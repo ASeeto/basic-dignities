@@ -10,7 +10,7 @@ const Header = ((props) => {
 		<header>
 			<nav className="navbar">
 				<div id="logo">
-					<img src="http://placehold.it/150x50" />
+					<span>Basic Dignities</span>
 				</div>
 				<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#nav">
 					<span className="icon-bar"></span>

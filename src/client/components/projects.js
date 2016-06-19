@@ -13,7 +13,7 @@ const Projects = ((props) => {
 				<div className="row">
 					<div className="col-xs-12 col-md-4 col-md-push-8 right-column">
 						<h1>Kisima Project</h1>
-						<p><i className="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;June 19, 2016</p>
+						<p><i className="fa fa-calendar" aria-hidden="true"></i> June 19, 2016</p>
 					</div>
 					<div className="col-xs-12 col-md-8 col-md-pull-4 left-column">
 						<img src="/img/kisima.png" />
@@ -27,7 +27,7 @@ const Projects = ((props) => {
 							<li>Life expectancy: 54-55 years old</li>
 						</ul>
 						<p>Kisima Community Project Leader: 48 year old primary school teacher</p>
-						<p>The proposed solution based on PresAID Uganda’s initial evaluation of the situation is to install a solar- powered Water Treatment System with a solar-powered pump at a cost of approx. $25,500 (which breaks down to a mere $13 per person), including not only the system installation and initialization itself, but sustainability training for local personnel, Health and Hygiene Training (to train local individuals who will then train the rest of the community), and a year of monitoring and evaluation with the assistance of PresAID Uganda. Ideally, we would like to send some or all of our team onsite during the next evaluation phase to offer professional insights to potentially improve system design for any or all of the following:</p>
+						<p>The proposed solution based on PresAID Uganda's initial evaluation of the situation is to install a solar- powered Water Treatment System with a solar-powered pump at a cost of approx. $25,500 (which breaks down to a mere $13 per person), including not only the system installation and initialization itself, but sustainability training for local personnel, Health and Hygiene Training (to train local individuals who will then train the rest of the community), and a year of monitoring and evaluation with the assistance of PresAID Uganda. Ideally, we would like to send some or all of our team onsite during the next evaluation phase to offer professional insights to potentially improve system design for any or all of the following:</p>
 						<ul>
 							<li>Durability &amp; Reliability</li>
 							<li>Decreased Cost</li>
