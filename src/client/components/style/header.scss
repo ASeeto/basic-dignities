@@ -3,29 +3,68 @@ header {
 	top: 0;
 	right: 0;
 	z-index: 1;
-	background: #fff;
+	background: rgba(255, 255, 255, 0.85);
 	width: 100%;
 	min-height: 50px;
 	text-align: right;
 }
 
-nav {
-	a {
-		padding: 20px;
+nav.navbar {
+	border: none;
+	margin: 0;
+	#logo {
 		float: left;
+		padding: 5px;
 	}
-	div {
-		padding-top: 15px;
-		padding-right: 20px;
+	#donate {
+		float: right;
+		height: 60px;
+	}
+	.navbar-toggle {
+		border-color: #333;
+		margin-top: 15px;
+		float: none;
+	}
+	.icon-bar {
+		background-color: #09263f;
+	}
+	ul.navbar-nav {
+		display: inline;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li {
+			a {
+				display: block;
+				color: #09263f;
+				padding: 20px;
+			}
+		}
 	}
 	input {
-		border-radius: 5px;
-		background-color: white;
-		border: 1px #000 solid;
-		color: black;
-		font-size: 14px;
+		background-color: #09263f;
+		border: none;
+		color: #fff;
 		font-family: Helvetica;
-		font-weight: 300;
-		padding: 5 10;
+		font-weight: bold;
+		padding: 0 20px;
+		height: 60px;
+	}
+}
+
+@media (min-width: 768px) { 
+	ul.navbar-nav {
+		float: right;
+		li {
+			float: left;
+		}
+	}
+}
+
+@media (max-width: 768px) { 
+	#nav {
+		width: 100%;
+		text-align: center;
+		padding: 0;
 	}
 }

@@ -1,0 +1,27 @@
+#projects {
+	padding-top: 60px;
+	margin: 60 0;
+	.row {
+		margin: 0;
+		.left-column {
+			border-right: 1px solid #e5e5e5;
+			img {
+				width: 100%;
+				border: 1px solid #09263f;
+				box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+			}
+			a {
+				color: #4d4d4d;
+				text-decoration: underline;
+			}
+		}
+	}
+	@media (min-width: 991px) {
+		.left-column {
+			padding-left: 10vw;
+		}
+		.right-column {
+			padding-right: 10vw;
+		}
+	}
+}

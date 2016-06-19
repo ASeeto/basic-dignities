@@ -3,6 +3,7 @@ var app = express();
 
 app.use('/dist', express.static(__dirname+'/../../dist'));
 app.use('/img', express.static(__dirname+'/../../src/client/public/img'));
+app.use('/js', express.static(__dirname+'/../../src/client/public/js'));
 
 app.engine('.html', require('ejs').__express);
 app.set('views', '.');

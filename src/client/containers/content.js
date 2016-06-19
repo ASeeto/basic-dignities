@@ -2,11 +2,9 @@
 
 import React from 'react';
 
-require('./style/content.scss');
-
 const Content = ((props) => {
 	return (
-		<div className='content'>
+		<div>
 			{props.children}
 		</div>
 	)

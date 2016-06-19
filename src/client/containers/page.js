@@ -10,7 +10,7 @@ require('./style/page.scss');
 
 const Page = ((props) => {
 	return (
-		<div className="wrapper">
+		<div>
 			<Header />
 			<Content>
 				{props.children}
