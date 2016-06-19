@@ -8,8 +8,6 @@ import { Router, Route, useRouterHistory } from 'react-router';
 import Home from './components/home';
 import Team from './components/team';
 import Projects from './components/projects';
-import Contact from './components/contact';
-import Error from './components/error';
 
 const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 
@@ -18,7 +16,6 @@ ReactDOM.render((
 		<Route path="/" component={Home} />
 		<Route path="team" component={Team} />
 		<Route path="projects" component={Projects} />
-		<Route path="contact" component={Contact} />
-		<Route path="*" component={Error} />
+		<Route path="*" component={Home} />
 	</Router>
 ), document.getElementById('app'));

@@ -17,21 +17,21 @@ const About = ((props) => {
 				<div className="row">
 					<div className="col-md-4">
 						<div className="profile">
-							<img src="/img/britt.png" />
+							<img src="/img/britt.jpg" />
 							<p className="label">Brittany Rittenbacher - President</p><br/>
 							<p className="description">{brittany}</p>
 						</div>
 					</div>
 					<div className="col-md-4">
 						<div className="profile">
-							<img src="/img/michael.png" />
+							<img src="/img/michael.jpg" />
 							<p className="label">Michael Hurtado - Secretary</p><br/>
 							<p className="description">{michael}</p>
 						</div>
 					</div>
 					<div className="col-md-4">
 						<div className="profile">
-							<img src="/img/trish.png" />
+							<img src="/img/trish.jpg" />
 							<p className="label">Patricia Fragen - Treasurer</p><br/>
 							<p className="description">{patricia}</p>
 						</div>

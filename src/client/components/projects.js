@@ -16,7 +16,7 @@ const Projects = ((props) => {
 						<p><i className="fa fa-calendar" aria-hidden="true"></i> June 19, 2016</p>
 					</div>
 					<div className="col-xs-12 col-md-8 col-md-pull-4 left-column">
-						<img src="/img/kisima.png" />
+						<img src="/img/kisima.jpg" />
 						<br/><br/>
 						<p>For our first project, we have decided to partner with the Ugandan non-profit agency, PresAID Uganda, and the local community of Kisima Island, on Lake Victoria, to bring safe drinking water to their residents. Here are some critical facts to know:</p>
 						<ul>
