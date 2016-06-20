@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-
 import Page from '../containers/page';
 
 require('./style/team.scss');

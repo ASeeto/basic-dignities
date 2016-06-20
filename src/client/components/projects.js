@@ -1,8 +1,8 @@
 'use strict';
 
 import React from 'react';
-
 import Page from '../containers/page';
+import { email } from '../constants/';
 
 require('./style/projects.scss');
 
@@ -34,7 +34,7 @@ const Projects = ((props) => {
 							<li>Ease of Maintenance</li>
 						</ul>
 						<p>Once we have all agreed on the final system design, local workmen will be hired to install the system under the guidance of experienced staff from PresAID Uganda. Hopefully any system improvements we are able to recommend will be applicable to future projects undertaken by PresAID Uganda throughout the rest of the country.</p>
-						<p>We are also seeking airline mileage to help us get on-location. If you have available mileage with an airline that services Uganda, <a href="mailto:tricia@basicdignities.org">please email us</a>.</p>
+						<p>We are also seeking airline mileage to help us get on-location. If you have available mileage with an airline that services Uganda, <a href={`mailto:${email}`}>please email us</a>.</p>
 					</div>
 				</div>
 			</div>
