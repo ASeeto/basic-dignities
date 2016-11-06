@@ -3,14 +3,18 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-require('./style/header.scss');
+require('./styles.scss');
 
 const Header = ((props) => {
 	return (
 		<header>
 			<nav className="navbar">
 				<div id="logo">
-					<span>Basic Dignities</span>
+					<span>
+						<Link to="/">
+							<img src="/img/logo.png" />
+						</Link>
+					</span>
 				</div>
 				<button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#nav">
 					<span className="icon-bar"></span>
@@ -31,9 +35,15 @@ const Header = ((props) => {
 				</div>
 				<div id="nav" className="navbar-collapse collapse">
 					<ul className="nav navbar-nav">
-						<li><Link to="/">Home</Link></li>
-						<li><Link to="team">Team</Link></li>
-						<li><Link to="projects">Projects</Link></li>
+						<li><Link className="link" to="/">Home</Link></li>
+						<li><Link className="link" to="team">Team</Link></li>
+						<li><Link className="link" to="projects">Projects</Link></li>
+						<li><Link className="link" to="news">News</Link></li>
+						<li>
+							<a href="https://www.facebook.com/basicdignities/" target="_blank">
+								<i className="fb-icon fa fa-facebook-square" aria-hidden="true"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</nav>

@@ -2,9 +2,10 @@
 
 import React from 'react';
 import { Link } from 'react-router';
-import { email } from '../constants/';
 
-require('./style/footer.scss');
+import { email } from '../../constants/';
+
+require('./styles.scss');
 
 const Footer = ((props) => {
 	return (

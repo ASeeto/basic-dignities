@@ -1,10 +1,11 @@
 'use strict';
 
 import React from 'react';
-import Page from '../containers/page';
-import { email } from '../constants/';
+import Page from '../page/';
 
-require('./style/projects.scss');
+import { email } from '../../constants/';
+
+require('./styles.scss');
 
 const Projects = ((props) => {
 	return (
@@ -12,7 +13,7 @@ const Projects = ((props) => {
 			<div id="projects">
 				<div className="row">
 					<div className="col-xs-12 col-md-4 col-md-push-8 right-column">
-						<h1>Kisima Project</h1>
+						<h1>Kisima Island Water Project</h1>
 						<p><i className="fa fa-calendar" aria-hidden="true"></i> June 19, 2016</p>
 					</div>
 					<div className="col-xs-12 col-md-8 col-md-pull-4 left-column">

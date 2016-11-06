@@ -6,7 +6,8 @@
 	.text-container {
 		position: absolute;
 		bottom: 20%;
-		background: rgba(9, 38, 63, 0.75);
+		background: #823923;
+		opacity: 0.75;
 		padding: 1vw;
 		color: #FFF;
 		font-size: 24pt;
@@ -33,7 +34,7 @@
 		transition: font-size .2s ease 0s, padding .2s ease 0s;
 		.title {
 			font-size: 32pt;
-			color: #09263f;
+			color: #c46720;
 		}
 		p {
 			text-align: justify;

@@ -1,11 +1,12 @@
 'use strict';
 
-import React, { Component } from 'react';
-import Page from '../containers/page';
-import cx from 'classnames';
 import _ from 'lodash';
+import cx from 'classnames';
+import React, { Component } from 'react';
 
-require('./style/home.scss');
+import Page from '../page/';
+
+require('./styles.scss');
 
 class Home extends Component {
 	constructor() {

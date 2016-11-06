@@ -1,0 +1,34 @@
+.team-row {
+	width: 70%;
+	margin: 60px auto;
+
+	/* Override Bootstrap Padding */
+	.row {
+		.col-md-4 {
+			padding: 0 !important;
+		}
+	}
+
+	img {
+		border: 1px solid #c46720;
+		box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+		width: 100%;
+		max-width: 225px;
+		margin-bottom: 30px;
+	}
+
+	.name {
+		text-align: left;
+		font-size: 20pt;
+		font-weight: bold;
+	}
+
+	.title {
+		text-align: left;
+		font-size: 14pt;
+	}
+
+	.description {
+		text-align: justify;
+	}
+}
