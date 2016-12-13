@@ -3,27 +3,23 @@ header {
 	top: 0;
 	right: 0;
 	z-index: 1;
-	background: rgba(255, 255, 255, 0.85);
 	width: 100%;
 	min-height: 50px;
 	text-align: right;
+	transition: background 0.5s ease;
+
+	&.show-header-background {
+		background: rgba(255, 255, 255, 0.85);
+	}
+
+	&.hide-header-background {
+		background: none;
+	}
 }
 
 nav.navbar {
 	border: none;
 	margin: 0;
-	#logo {
-		float: left;
-		padding: 5px;
-		span {
-			font-size: 16pt;
-			padding: 0 15px;
-			display: block;
-			img {
-				height: 50px;
-			}
-		}
-	}
 	#donate {
 		float: right;
 		height: 60px;

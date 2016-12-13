@@ -71,9 +71,7 @@ class Home extends Component {
 		return (
 			<Page>
 				<div id="main">
-					<div className="text-container">
-						<p>Every person deserves a solid basis upon which to build their lives.</p>
-					</div>
+					<div className="texture"></div>
 				</div>
 				<div id="about">
 					<div className="row">

@@ -1,17 +1,15 @@
 #main {
 	height: 100%;
-	background-image: url("/img/slider3.jpg");
-	background-size: cover;
+	background-image: url("/img/logo.png");
 	background-position: center center;
-	.text-container {
+	background-repeat: no-repeat;
+	.texture {
 		position: absolute;
-		bottom: 20%;
-		background: #823923;
-		opacity: 0.75;
-		padding: 1vw;
-		color: #FFF;
-		font-size: 24pt;
-		line-height: 24pt;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: repeating-linear-gradient(45deg, #ffffff, #c5c5c5 1px, #c85c06 1px, #8d311a 1px);
 	}
 }
 
